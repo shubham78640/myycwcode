@@ -9,10 +9,10 @@ function JobTimeline() {
   return (
     <>
       <Box mt={8} sx={{ width: "100%"  }}>
-        <Stepper activeStep={10} alternativeLabel>
+        <Stepper sx={{color:"green"}} activeStep={8} alternativeLabel>
           {steps.map((label) => (
-            <Step key={label}>
-              <StepLabel>{label}</StepLabel>
+            <Step  key={label}>
+              <StepLabel >{label}</StepLabel>
             </Step>
           ))}
         </Stepper>

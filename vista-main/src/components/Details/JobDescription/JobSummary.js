@@ -5,11 +5,11 @@ function JobSummary() {
     <>
       <Box
         bgcolor="#EDF4FF"
-        p={3}
-        width="30%"
+        p={1}
+        mt={1}
+   
         sx={{
           borderRadius: "8px",
-          marginTop: "2rem",
           fontSize: "13px",
         }}
       >

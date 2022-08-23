@@ -45,8 +45,7 @@ const Jobs = () => {
         </p>
       </Box>
       <hr style={{ marginTop: "1rem" }} />
-      {/* {value.map((e) => {
-        return ( */}
+     
       <Box
         sx={{
           display: "flex",
@@ -83,11 +82,12 @@ const Jobs = () => {
        
       
         </DIV>
-      {/* //   );
-      // })} */}
+    
       </Box>
     </>
   );
 };
 
 export default Jobs;
+
+
